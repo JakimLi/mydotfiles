@@ -1,0 +1,24 @@
+
+" set snipperts dir for snipmate
+" let snippets_dir = $VIM.'/bundle/vim-snippets/snippets'
+
+" double leader (already mapped to space) tab to switch last visited file
+nnoremap <leader><Tab> <c-^>
+
+" quickly edit ~/.vimrc.local & source .vimrc after save
+" ev = edit vimrc; el = edit local; sv = source vimrc
+nnoremap <leader>el :vsplit ~/.vimrc.local<cr>
+nnoremap <leader>ev :vsplit ~/.vimrc<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" quickly edit ~/.vim/plugin/settings/Settings.vim to manage settings
+" es = edit settings
+nnoremap <leader>es :vsplit ~/.vim/plugin/settings/Settings.vim<cr>
+
+" quickly open ~/.vimrc.bundles.local to manage plugins
+" ip = install plugin
+nnoremap <leader>ip :vsplit ~/.vimrc.bundles.local<cr>
+
+" ruby on rails configuration
+let g:rubycomplete_buffer_loading = 1
+let g:rubycomplete_rails = 1
