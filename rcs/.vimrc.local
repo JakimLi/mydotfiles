@@ -19,6 +19,22 @@ nnoremap <leader>es :vsplit ~/.vim/plugin/settings/Settings.vim<cr>
 " ip = install plugin
 nnoremap <leader>ip :vsplit ~/.vimrc.bundles.local<cr>
 
+" quickly edit .tmux.conf
+" et = edit tmux.conf
+nnoremap <leader>et :vsplit ~/.tmux.conf<cr>
+
+" use ag
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
 " ruby on rails configuration
 let g:rubycomplete_buffer_loading = 1
 let g:rubycomplete_rails = 1
+
+" auto read when file was modified externally
+set autoread
+" auto write a couple of keys are pressed
+set autowrite
+
+" H L to jump to line begin/end
+nnoremap H 0
+nnoremap L $
