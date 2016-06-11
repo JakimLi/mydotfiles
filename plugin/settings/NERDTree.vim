@@ -21,3 +21,7 @@ nnoremap <silent> <F4> :NERDTreeFind<CR>
 
 " bind NERDTreeToggle to <F6>
 nnoremap <silent> <F6> :TagbarToggle<CR>
+
+" show hidden files by default
+let NERDTreeShowHidden=1
+

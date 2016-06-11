@@ -38,3 +38,6 @@ set autowrite
 " H L to jump to line begin/end
 nnoremap H 0
 nnoremap L $
+
+" esc to in normal model to save file
+nnoremap <esc><esc> :w<cr>
