@@ -41,3 +41,6 @@ nnoremap L $
 
 " esc to in normal model to save file
 nnoremap <esc><esc> :w<cr>
+
+" map ; to : so we don't need to type shift+;
+nnoremap ; :
