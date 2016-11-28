@@ -7,6 +7,10 @@ nnoremap <leader>ag :Unite -start-insert grep:.<cr>
 " unite show yank history
 nnoremap <leader>h :Unite history/yank<cr>
 
+
+" unite show buffers
+nnoremap <C-b> :Unite buffer<cr>
+
 " user ag to search for unite.vim
 let g:unite_source_grep_command = 'ag'
 let g:unite_source_grep_default_opts =

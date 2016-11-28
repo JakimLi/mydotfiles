@@ -9,6 +9,7 @@ nnoremap <leader><Tab> <c-^>
 " ev = edit vimrc; el = edit local; sv = source vimrc
 nnoremap <leader>el :vsplit ~/.vimrc.local<cr>
 nnoremap <leader>ev :vsplit ~/.vimrc<cr>
+nnoremap <leader>eb :vsplit ~/.vimrc.bundles<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " quickly edit ~/.vim/plugin/settings/Settings.vim to manage settings
