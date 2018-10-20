@@ -48,9 +48,11 @@ Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
 Plug 'mxw/vim-jsx'
+Plug 'jbgutierrez/vim-babel'
+Plug 'mattn/webapi-vim'
+Plug 'hashivim/vim-terraform'
 
 " After this use PlugInstall to install plugin
-
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif

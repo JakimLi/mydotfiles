@@ -45,3 +45,7 @@ nnoremap <esc><esc> :w<cr>
 
 " map ; to : so we don't need to type shift+;
 nnoremap ; :
+
+" enable spell check for english and chiese to avoid highlight on chinese
+" characters which was recognized as english spelling error by mistake.
+set spell spelllang=en_us,cjk
